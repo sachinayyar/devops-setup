@@ -2,7 +2,7 @@
 ## SACHIN
 #### SACHIN
 
-'''
-kubectl get nodes
-kubectl get top nodes
-'''
+
+`kubectl get nodes
+kubectl get top nodes`
+
