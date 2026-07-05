@@ -6,6 +6,15 @@ To set up a Kubernetes cluster using kubeadm, with containerd as the container r
 </small>
 
 ---
+
+### Architectural Diagram
+
+<p align="center">
+  <img src="https://github.com/sachinayyar/devops-setup/blob/main/k8s-installation/kubeadm_architecture.png" alt="Kubernetes Cluster Architecture" width="800">
+</p>
+
+---
+
 ### Prerequisites
 
 | Requirement | Details |
