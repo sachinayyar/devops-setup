@@ -1,0 +1,1 @@
+## Sonarqube integration in pipeline
