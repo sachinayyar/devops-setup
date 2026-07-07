@@ -1,5 +1,3 @@
-# devops-setup
-
 # KUBEADM CLUSTER INSTALATION
 ## SACHIN
 #### SACHIN
