@@ -369,29 +369,18 @@ Example Jenkins pipeline using Kubernetes agent:
 
 ```groovy
 pipeline {
-
     agent {
-
         kubernetes {
-
             label 'java21'
-
             defaultContainer 'jnlp'
         }
     }
-
-
     stages {
-
         stage('Agent Validation') {
-
             steps {
-
                 sh '''
                 echo "Jenkins Kubernetes Agent Running"
-
                 hostname
-
                 whoami
                 '''
             }
