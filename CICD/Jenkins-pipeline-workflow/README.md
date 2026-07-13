@@ -4,9 +4,13 @@ We implemented an end-to-end CI/CD pipeline using **Jenkins** for Continuous Int
 
 ---
 
-##
-Architectural Diagram
+## Architecture
 
+<p align="center">
+  <img src="https://github.com/sachinayyar/devops-setup/blob/main/CICD/Jenkins-pipeline-workflow/CICD_architecture.png" alt="cicd Architecture" width="800">
+</p>
+
+---
 
 ## Tools Used
 
