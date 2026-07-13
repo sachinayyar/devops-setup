@@ -8,20 +8,11 @@ The integration enables Jenkins to dynamically provision build agents as Kuberne
 
 ## Architecture
 
-```
-Jenkins Controller
-        |
-        |
-        | Kubernetes API
-        |
-        |
-Kubernetes Cluster
-        |
-        |
-        +-- Jenkins Agent Pod (Dynamic)
-              |
-              +-- jnlp container
-```
+<p align="center">
+  <img src="https://github.com/sachinayyar/devops-setup/blob/main/CICD/Jenkins-agent-integration/jenkins-agent-architecture.png" alt="Kubernetes Cluster Architecture" width="800">
+</p>
+
+---
 
 ## Environment Details
 
