@@ -15,31 +15,9 @@ After completing this guide, Kubernetes will automatically provision PersistentV
 
 # Architecture
 
-```text
-                   +---------------------------+
-                   |     GCP VM (NFS Server)   |
-                   |---------------------------|
-                   | /srv/nfs/kubedata         |
-                   +------------+--------------+
-                                |
-                         NFS (TCP 2049)
-                                |
-        -------------------------------------------------
-        |                 Kubernetes Cluster            |
-        |                                               |
-        |  +-------------------------------+            |
-        |  | NFS External Provisioner      |            |
-        |  +---------------+---------------+            |
-        |                  |                            |
-        |          StorageClass (nfs-client)            |
-        |                  |                            |
-        |      +-----------+-----------+                |
-        |      |                       |                |
-        |     PVC                    PVC               |
-        |      |                       |                |
-        |     Pod                     Pod              |
-        +----------------------------------------------+
-```
+<p align="center">
+  <img src="https://github.com/sachinayyar/devops-setup/blob/main/nfs-storageclass/nfs-server-architecture.png" alt="Kubernetes Cluster Architecture" width="800">
+</p>
 
 ---
 
